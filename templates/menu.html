@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Menu - {{ restaurant.name }}</h2>
+<form method="POST" action="{{ url_for('add_to_cart') }}">
+    {% for item in restaurant.menu %}
+    <div class="menu-item">
+        <span>{{ item.name }} - ₹{{ item.price }}</span>
+        <input type="hidden" name="name" value="{{ item.name }}">
+        <input type="hidden" name="price" value="{{ item.price }}">
+        <button type="submit">Add</button>
+    </div>
+    {% endfor %}
+</form>
+<a href="{{ url_for('cart') }}">🛒 View Cart</a>
+{% endblock %}
+

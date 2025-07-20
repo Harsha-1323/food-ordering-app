@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>🎉 Order Placed Successfully!</h2>
+<p><strong>Order ID:</strong> {{ order_id }}</p>
+<p><strong>Total:</strong> ₹{{ total }}</p>
+<a href="{{ url_for('index') }}">Back to Home</a>
+{% endblock %}
+

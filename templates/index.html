@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Choose a Restaurant</h2>
+<ul>
+    {% for r in restaurants %}
+        <li><a href="{{ url_for('menu', restaurant_id=r.id) }}">{{ r.name }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
+

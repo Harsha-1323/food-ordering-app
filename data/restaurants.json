@@ -1,0 +1,19 @@
+[
+  {
+    "id": "res1",
+    "name": "Spice Villa",
+    "menu": [
+      { "name": "Paneer Butter Masala", "price": "180" },
+      { "name": "Butter Naan", "price": "40" }
+    ]
+  },
+  {
+    "id": "res2",
+    "name": "Tandoori Treat",
+    "menu": [
+      { "name": "Chicken Tikka", "price": "200" },
+      { "name": "Tandoori Roti", "price": "30" }
+    ]
+  }
+]
+
