@@ -6,3 +6,4 @@ A fully responsive multi-restaurant food ordering system built using **Flask**, 
 Visit: http://localhost:5000
 ![image Alt](https://github.com/Harsha-1323/food-ordering-app/blob/9257ef4b255a2f7d84e8e718de7d36f0fe95b9c0/Screenshot%20(72).png)
 ![image Alt](https://github.com/Harsha-1323/food-ordering-app/blob/c8559d319aaf07fda1b054ecfd6d90499e2fbf3f/Screenshot%20(77).png)
+![image Alt](https://github.com/Harsha-1323/food-ordering-app/blob/024b13590c99c342b5ee1368cb34ab9eaa4bc5cc/Screenshot%20(76).png)
